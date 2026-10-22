@@ -70,7 +70,6 @@ que el fetcher sigue vivo y avise si los datos tienen más de 1 h).
 | Ruta | Qué es |
 |---|---|
 | `fetcher/fetch_alerts.py` | Descarga y conversión a GeoJSON (solo biblioteca estándar de Python) |
-| `fetcher/tests/` | Tests con CAP reales y sintéticos en `fixtures/` |
 | `.github/workflows/update-alerts.yml` | Cron cada 15 min + lanzamiento manual; commit solo si hay cambios |
 | `.github/workflows/pages.yml` | Publica `site/` en GitHub Pages |
 | `site/` | Web estática: `index.html`, `app.js`, `style.css` y `data/alerts.geojson` |
@@ -83,7 +82,6 @@ desactiva con `prefers-reduced-motion`; en móvil se usa un filtro más ligero).
 ## Uso en local
 
 ```bash
-python -m unittest discover -s fetcher/tests
 python fetcher/fetch_alerts.py
 python -m http.server 8765 --directory site
 ```
