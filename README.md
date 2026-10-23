@@ -144,7 +144,8 @@ No hay secretos ni API keys.
 
 1. *Settings → Pages → Build and deployment → Source:* **GitHub Actions**.
 2. *Actions → Actualizar avisos → Run workflow* para la primera ejecución.
-3. A partir de ahí el cron se ejecuta solo cada 20 minutos (minutos 7, 27 y 47 de cada hora) y publica la web cuando cambian los datos.
+3. A partir de ahí el cron se ejecuta solo cada 20 minutos (minutos 7, 27 y 47 de cada hora) y publica
+   la web cuando cambian los datos.
 4. GitHub desactiva los workflows programados de repos públicos tras 60 días sin actividad: si pasa, se
    reactivan desde la pestaña *Actions*.
 
