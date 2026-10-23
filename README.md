@@ -7,10 +7,10 @@
 [![Datos](https://img.shields.io/badge/Datos-AEMET%20Meteoalerta-0b5ea8?style=for-the-badge)](https://www.aemet.es/es/eltiempo/prediccion/avisos)
 [![Fetcher](https://img.shields.io/badge/Fetcher-Python%203.12-3776ab?style=for-the-badge&logo=python&logoColor=white)](fetcher)
 [![Mapa](https://img.shields.io/badge/Mapa-Leaflet%20%2B%20MapLibre-199900?style=for-the-badge&logo=leaflet&logoColor=white)](site)
-[![Versión](https://img.shields.io/badge/Versión-0.1.0-ff2d2d?style=for-the-badge)](CHANGELOG.md)
+[![Versión](https://img.shields.io/badge/Versión-0.1.1-ff2d2d?style=for-the-badge)](CHANGELOG.md)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-blue?style=for-the-badge)](LICENSE)
 
-DANA Radar lee cada 15 minutos los avisos oficiales de AEMET (Plan Meteoalerta), los convierte en un
+DANA Radar lee cada 20 minutos los avisos oficiales de AEMET (Plan Meteoalerta), los convierte en un
 GeoJSON y los pinta sobre un mapa oscuro como una **nube animada** sobre la zona afectada, con el color de
 su nivel. No tiene backend ni base de datos: todo es una web estática en GitHub Pages y un workflow de
 GitHub Actions, con coste 0 €.
@@ -50,6 +50,42 @@ vistazo para:
 
 ---
 
+## 🔄 Cómo funciona
+
+```text
+ AEMET (RSS + CAP)
+        │  cada 20 min
+        ▼
+ Actualizar avisos (GitHub Actions, rama main)
+        │  fetch_alerts.py → site/data/alerts.geojson
+        │  ¿ha cambiado? ── no ──▶ termina sin commit
+        │  sí
+        ▼
+ commit "data: avisos …" en main (github-actions[bot])
+        │
+        ▼
+ Publicar web (GitHub Actions) ──▶ GitHub Pages ──▶ navegador
+```
+
+1. **Actualizar avisos** (`.github/workflows/update-alerts.yml`) se lanza solo en los minutos 7, 27 y 47
+   de cada hora, siempre sobre `main`. También se puede lanzar a mano.
+2. Ejecuta `fetcher/fetch_alerts.py`, que lee el RSS de AEMET, descarga los avisos que interesan y
+   escribe `site/data/alerts.geojson`.
+3. El fichero solo se reescribe si **cambian los avisos** o si su hora (`updated_at`) tiene 30 min o más
+   (el *latido*, que demuestra que el proceso sigue vivo). Con el cron cada 20 min, la hora se renueva
+   como mucho cada 40 min.
+4. Si el fichero cambia, el bot `github-actions[bot]` hace un commit `data: avisos <fecha>` en `main` y
+   llama a **Publicar web** (`.github/workflows/pages.yml`), que sube la carpeta `site/` a GitHub Pages.
+   Si no cambia, no hay commit ni despliegue.
+5. **Publicar web** también se lanza solo cuando alguien sube a `main` cambios en `site/`.
+6. En el navegador, `app.js` lee `data/alerts.geojson` sin caché, lo vuelve a pedir cada 5 min, quita los
+   avisos caducados cada minuto y muestra la hora de la última comprobación. Si tiene más de 1 h, el
+   panel se pone en amarillo: es la señal de que el workflow ha dejado de funcionar.
+
+El historial de commits `data: avisos …` sirve además como archivo de los avisos que ha habido.
+
+---
+
 ## 🧱 Tecnologías
 
 ### Web (`site/`)
@@ -60,7 +96,7 @@ vistazo para:
 
 ### Datos (`fetcher/`)
 - **Python 3.12**, solo biblioteca estándar (sin dependencias que instalar)
-- **GitHub Actions** con cron cada 15 minutos y lanzamiento manual
+- **GitHub Actions** con cron cada 20 minutos y lanzamiento manual
 - **GitHub Pages** con origen GitHub Actions
 
 ---
@@ -82,7 +118,7 @@ la propia web. AEMET recibe las peticiones de una ejecución del workflow, no un
 ```text
 dana-radar/
 ├── .github/workflows/
-│   ├── update-alerts.yml   # cron cada 15 min: descarga avisos y hace commit si cambian
+│   ├── update-alerts.yml   # cron cada 20 min: descarga avisos y hace commit si cambian
 │   └── pages.yml           # publica site/ en GitHub Pages
 ├── fetcher/
 │   └── fetch_alerts.py     # RSS + CAP de AEMET → GeoJSON
@@ -143,12 +179,34 @@ No hay secretos ni API keys.
 ## ☁️ Despliegue en GitHub (gratis)
 
 1. *Settings → Pages → Build and deployment → Source:* **GitHub Actions**.
-2. *Actions → Actualizar avisos → Run workflow* para la primera ejecución.
-3. A partir de ahí el cron se ejecuta solo cada 15 minutos y publica la web cuando cambian los datos.
-4. GitHub desactiva los workflows programados de repos públicos tras 60 días sin actividad: si pasa, se
-   reactivan desde la pestaña *Actions*.
+2. *Settings → Environments → github-pages → Deployment branches:* permitir la rama **`main`** (si el
+   entorno se creó con otra rama, como `master`, el despliegue falla).
+3. Subir a `main`: **Publicar web** se lanza solo y la web queda en `https://<usuario>.github.io/dana-radar/`.
+4. *Actions → Actualizar avisos → Run workflow* para la primera descarga de datos, o desde la terminal:
 
-Para pararlo todo: desactivar el workflow *Actualizar avisos* en la pestaña *Actions*.
+   ```bash
+   gh workflow run update-alerts.yml --ref main
+   ```
+
+5. A partir de ahí el cron se ejecuta solo cada 20 minutos (minutos 7, 27 y 47 de cada hora). GitHub
+   suele retrasar unos minutos los crons, y la primera ejecución programada puede tardar en llegar.
+
+No hacen falta secretos: los workflows usan el `GITHUB_TOKEN` con los permisos que declaran
+(`contents: write` para el commit de datos; `pages: write` e `id-token: write` para publicar).
+
+### Mantenimiento
+
+- **Panel en amarillo** (datos de más de 1 h): mirar la pestaña *Actions* por si *Actualizar avisos*
+  falla, por ejemplo porque AEMET no responde o ha cambiado el formato.
+- **Inactividad:** GitHub desactiva los workflows programados de repos públicos tras 60 días sin
+  actividad. Avisa por correo antes; se reactivan desde la pestaña *Actions*.
+- **Para pararlo todo:** desactivar el workflow *Actualizar avisos* en la pestaña *Actions*.
+
+### Trabajar en el código
+
+El bot hace commits en `main` continuamente, así que antes de trabajar hay que hacer `git pull` en `main`.
+Cada cambio va en su rama (`feat/...` o `fix/...`) desde `main` y se une con merge; los commits del bot
+solo tocan `site/data/alerts.geojson`, por lo que no chocan con cambios de código.
 
 ---
 

@@ -3,6 +3,15 @@
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/); versiones según
 [SemVer](https://semver.org/lang/es/).
 
+## [0.1.1] - 2026-10-23
+
+SemVer: 0.1.0 → 0.1.1 (PATCH)
+
+### Cambiado
+- El workflow de avisos pasa de cada 15 a cada 20 minutos, en los minutos 7, 27 y 47, para evitar los
+  retrasos del cron de GitHub en el minuto 0. Con el latido de 30 min, la hora de los datos se renueva
+  como mucho cada 40 min y queda por debajo del aviso de datos viejos (1 h).
+
 ## [0.1.0] - 2026-10-22
 
 Primera versión (MVP).
