@@ -2,7 +2,7 @@ name: Actualizar avisos
 
 on:
   schedule:
-    # Cada 20 min, en minutos sueltos: GitHub retrasa más los crons que caen en el minuto 0.
+    # Cada 20 min (minutos 7, 27 y 47): GitHub retrasa más los crons que caen en el minuto 0.
     - cron: "7,27,47 * * * *"
   workflow_dispatch:
 
