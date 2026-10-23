@@ -7,10 +7,10 @@
 [![Datos](https://img.shields.io/badge/Datos-AEMET%20Meteoalerta-0b5ea8?style=for-the-badge)](https://www.aemet.es/es/eltiempo/prediccion/avisos)
 [![Fetcher](https://img.shields.io/badge/Fetcher-Python%203.12-3776ab?style=for-the-badge&logo=python&logoColor=white)](fetcher)
 [![Mapa](https://img.shields.io/badge/Mapa-Leaflet%20%2B%20MapLibre-199900?style=for-the-badge&logo=leaflet&logoColor=white)](site)
-[![Versión](https://img.shields.io/badge/Versión-0.1.0-ff2d2d?style=for-the-badge)](CHANGELOG.md)
+[![Versión](https://img.shields.io/badge/Versión-0.1.1-ff2d2d?style=for-the-badge)](CHANGELOG.md)
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-blue?style=for-the-badge)](LICENSE)
 
-DANA Radar lee cada 15 minutos los avisos oficiales de AEMET (Plan Meteoalerta), los convierte en un
+DANA Radar lee cada 20 minutos los avisos oficiales de AEMET (Plan Meteoalerta), los convierte en un
 GeoJSON y los pinta sobre un mapa oscuro como una **nube animada** sobre la zona afectada, con el color de
 su nivel. No tiene backend ni base de datos: todo es una web estática en GitHub Pages y un workflow de
 GitHub Actions, con coste 0 €.
@@ -60,7 +60,7 @@ vistazo para:
 
 ### Datos (`fetcher/`)
 - **Python 3.12**, solo biblioteca estándar (sin dependencias que instalar)
-- **GitHub Actions** con cron cada 15 minutos y lanzamiento manual
+- **GitHub Actions** con cron cada 20 minutos y lanzamiento manual
 - **GitHub Pages** con origen GitHub Actions
 
 ---
@@ -82,7 +82,7 @@ la propia web. AEMET recibe las peticiones de una ejecución del workflow, no un
 ```text
 dana-radar/
 ├── .github/workflows/
-│   ├── update-alerts.yml   # cron cada 15 min: descarga avisos y hace commit si cambian
+│   ├── update-alerts.yml   # cron cada 20 min: descarga avisos y hace commit si cambian
 │   └── pages.yml           # publica site/ en GitHub Pages
 ├── fetcher/
 │   └── fetch_alerts.py     # RSS + CAP de AEMET → GeoJSON
@@ -144,7 +144,7 @@ No hay secretos ni API keys.
 
 1. *Settings → Pages → Build and deployment → Source:* **GitHub Actions**.
 2. *Actions → Actualizar avisos → Run workflow* para la primera ejecución.
-3. A partir de ahí el cron se ejecuta solo cada 15 minutos y publica la web cuando cambian los datos.
+3. A partir de ahí el cron se ejecuta solo cada 20 minutos (minutos 7, 27 y 47 de cada hora) y publica la web cuando cambian los datos.
 4. GitHub desactiva los workflows programados de repos públicos tras 60 días sin actividad: si pasa, se
    reactivan desde la pestaña *Actions*.
 
