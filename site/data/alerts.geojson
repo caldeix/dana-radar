@@ -1,6 +1,97 @@
 {
  "type": "FeatureCollection",
- "updated_at": "2026-10-31T06:56:03Z",
+ "updated_at": "2026-10-31T13:36:08Z",
  "source": "AEMET - Plan Meteoalerta",
- "features": []
+ "features": [
+  {
+   "type": "Feature",
+   "id": "2.49.0.0.724.0.ES.20261031102827.659602PRP102001793442507#0",
+   "properties": {
+    "nivel": "naranja",
+    "codigo": "PR",
+    "fenomeno": "Lluvias",
+    "zona": "Área metropolitana de Tenerife",
+    "inicio": "2026-11-01T12:00:00Z",
+    "fin": "2026-11-01T23:59:59Z",
+    "descripcion": "Precipitación acumulada en una hora: 30 mm.",
+    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
+    "probabilidad": "40%-70%"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -16.43,
+       28.49
+      ],
+      [
+       -16.42,
+       28.52
+      ],
+      [
+       -16.38,
+       28.55
+      ],
+      [
+       -16.33,
+       28.56
+      ],
+      [
+       -16.32,
+       28.58
+      ],
+      [
+       -16.22,
+       28.56
+      ],
+      [
+       -16.16,
+       28.59
+      ],
+      [
+       -16.12,
+       28.55
+      ],
+      [
+       -16.15,
+       28.52
+      ],
+      [
+       -16.23,
+       28.48
+      ],
+      [
+       -16.25,
+       28.45
+      ],
+      [
+       -16.36,
+       28.38
+      ],
+      [
+       -16.36,
+       28.34
+      ],
+      [
+       -16.39,
+       28.34
+      ],
+      [
+       -16.44,
+       28.39
+      ],
+      [
+       -16.39,
+       28.43
+      ],
+      [
+       -16.43,
+       28.49
+      ]
+     ]
+    ]
+   }
+  }
+ ]
 }
