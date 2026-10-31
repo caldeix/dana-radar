@@ -1,17 +1,17 @@
 {
  "type": "FeatureCollection",
- "updated_at": "2026-10-31T17:57:37Z",
+ "updated_at": "2026-10-31T21:27:05Z",
  "source": "AEMET - Plan Meteoalerta",
  "features": [
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261031172247.659302PRP102001793467367#0",
+   "id": "2.49.0.0.724.0.ES.20261031205611.659302PRP102001793480171#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "PR",
     "fenomeno": "Lluvias",
     "zona": "Cumbres de La Palma",
-    "inicio": "2026-11-01T00:00:00Z",
+    "inicio": "2026-10-31T20:00:00Z",
     "fin": "2026-11-01T23:59:59Z",
     "descripcion": "Precipitación acumulada en una hora: 30 mm.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
@@ -75,13 +75,13 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261031172247.659304PRP102001793467367#0",
+   "id": "2.49.0.0.724.0.ES.20261031205611.659304PRP102001793480171#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "PR",
     "fenomeno": "Lluvias",
     "zona": "Oeste de La Palma",
-    "inicio": "2026-11-01T00:00:00Z",
+    "inicio": "2026-10-31T20:00:00Z",
     "fin": "2026-11-01T23:59:59Z",
     "descripcion": "Precipitación acumulada en una hora: 30 mm.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
