@@ -1,18 +1,108 @@
 {
  "type": "FeatureCollection",
- "updated_at": "2026-11-01T06:35:21Z",
+ "updated_at": "2026-11-01T13:49:56Z",
  "source": "AEMET - Plan Meteoalerta",
  "features": [
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261031205611.659302PRP102001793480171#0",
+   "id": "2.49.0.0.724.0.ES.20261101083706.659602PRP102001793522226#0",
+   "properties": {
+    "nivel": "naranja",
+    "codigo": "PR",
+    "fenomeno": "Lluvias",
+    "zona": "Área metropolitana de Tenerife",
+    "inicio": "2026-11-01T08:00:00Z",
+    "fin": "2026-11-01T23:59:59Z",
+    "descripcion": "Precipitación acumulada en una hora: 30 mm.",
+    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
+    "probabilidad": "40%-70%"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -16.43,
+       28.49
+      ],
+      [
+       -16.42,
+       28.52
+      ],
+      [
+       -16.38,
+       28.55
+      ],
+      [
+       -16.33,
+       28.56
+      ],
+      [
+       -16.32,
+       28.58
+      ],
+      [
+       -16.22,
+       28.56
+      ],
+      [
+       -16.16,
+       28.59
+      ],
+      [
+       -16.12,
+       28.55
+      ],
+      [
+       -16.15,
+       28.52
+      ],
+      [
+       -16.23,
+       28.48
+      ],
+      [
+       -16.25,
+       28.45
+      ],
+      [
+       -16.36,
+       28.38
+      ],
+      [
+       -16.36,
+       28.34
+      ],
+      [
+       -16.39,
+       28.34
+      ],
+      [
+       -16.44,
+       28.39
+      ],
+      [
+       -16.39,
+       28.43
+      ],
+      [
+       -16.43,
+       28.49
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "2.49.0.0.724.0.ES.20261101102924.659302PRP103001793528964#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "PR",
     "fenomeno": "Lluvias",
     "zona": "Cumbres de La Palma",
-    "inicio": "2026-10-31T20:00:00Z",
-    "fin": "2026-11-01T23:59:59Z",
+    "inicio": "2026-11-01T10:00:00Z",
+    "fin": "2026-11-02T23:59:59Z",
     "descripcion": "Precipitación acumulada en una hora: 30 mm.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
@@ -75,14 +165,14 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261031205611.659304PRP102001793480171#0",
+   "id": "2.49.0.0.724.0.ES.20261101102924.659304PRP103001793528964#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "PR",
     "fenomeno": "Lluvias",
     "zona": "Oeste de La Palma",
-    "inicio": "2026-10-31T20:00:00Z",
-    "fin": "2026-11-01T23:59:59Z",
+    "inicio": "2026-11-01T10:00:00Z",
+    "fin": "2026-11-02T23:59:59Z",
     "descripcion": "Precipitación acumulada en una hora: 30 mm.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
@@ -177,14 +267,14 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261031102827.659602PRP102001793442507#0",
+   "id": "2.49.0.0.724.0.ES.20261101102924.659501PRP103001793528964#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "PR",
     "fenomeno": "Lluvias",
-    "zona": "Área metropolitana de Tenerife",
-    "inicio": "2026-11-01T12:00:00Z",
-    "fin": "2026-11-01T23:59:59Z",
+    "zona": "El Hierro",
+    "inicio": "2026-11-02T00:00:00Z",
+    "fin": "2026-11-02T23:59:59Z",
     "descripcion": "Precipitación acumulada en una hora: 30 mm.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
@@ -194,72 +284,232 @@
     "coordinates": [
      [
       [
-       -16.43,
-       28.49
+       -18.05,
+       27.69
       ],
       [
-       -16.42,
-       28.52
+       -18.16,
+       27.71
       ],
       [
-       -16.38,
-       28.55
+       -18.15,
+       27.75
       ],
       [
-       -16.33,
+       -18.13,
+       27.77
+      ],
+      [
+       -18.07,
+       27.75
+      ],
+      [
+       -18.03,
+       27.76
+      ],
+      [
+       -17.99,
+       27.8
+      ],
+      [
+       -17.96,
+       27.84
+      ],
+      [
+       -17.92,
+       27.85
+      ],
+      [
+       -17.88,
+       27.8
+      ],
+      [
+       -17.9,
+       27.78
+      ],
+      [
+       -17.93,
+       27.73
+      ],
+      [
+       -17.96,
+       27.72
+      ],
+      [
+       -17.97,
+       27.65
+      ],
+      [
+       -18.01,
+       27.65
+      ],
+      [
+       -18.05,
+       27.69
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "2.49.0.0.724.0.ES.20261101102924.659303PRP103001793528964#0",
+   "properties": {
+    "nivel": "naranja",
+    "codigo": "PR",
+    "fenomeno": "Lluvias",
+    "zona": "Este de La Palma",
+    "inicio": "2026-11-02T00:00:00Z",
+    "fin": "2026-11-02T23:59:59Z",
+    "descripcion": "Precipitación acumulada en una hora: 30 mm.",
+    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
+    "probabilidad": "40%-70%"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -17.84,
        28.56
       ],
       [
-       -16.32,
-       28.58
+       -17.84,
+       28.61
       ],
       [
-       -16.22,
-       28.56
+       -17.82,
+       28.64
       ],
       [
-       -16.16,
+       -17.83,
+       28.68
+      ],
+      [
+       -17.84,
+       28.7
+      ],
+      [
+       -17.83,
+       28.74
+      ],
+      [
+       -17.86,
+       28.76
+      ],
+      [
+       -17.85,
+       28.83
+      ],
+      [
+       -17.78,
+       28.84
+      ],
+      [
+       -17.76,
+       28.79
+      ],
+      [
+       -17.72,
+       28.73
+      ],
+      [
+       -17.77,
+       28.67
+      ],
+      [
+       -17.75,
+       28.62
+      ],
+      [
+       -17.75,
        28.59
       ],
       [
-       -16.12,
-       28.55
-      ],
-      [
-       -16.15,
+       -17.79,
        28.52
       ],
       [
-       -16.23,
-       28.48
+       -17.84,
+       28.54
       ],
       [
-       -16.25,
-       28.45
+       -17.84,
+       28.56
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "2.49.0.0.724.0.ES.20261101102924.659401PRP103001793528964#0",
+   "properties": {
+    "nivel": "naranja",
+    "codigo": "PR",
+    "fenomeno": "Lluvias",
+    "zona": "La Gomera",
+    "inicio": "2026-11-02T00:00:00Z",
+    "fin": "2026-11-02T23:59:59Z",
+    "descripcion": "Precipitación acumulada en una hora: 30 mm.",
+    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
+    "probabilidad": "40%-70%"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -17.34,
+       28.15
       ],
       [
-       -16.36,
-       28.38
+       -17.31,
+       28.2
       ],
       [
-       -16.36,
-       28.34
+       -17.27,
+       28.22
       ],
       [
-       -16.39,
-       28.34
+       -17.24,
+       28.2
       ],
       [
-       -16.44,
-       28.39
+       -17.19,
+       28.2
       ],
       [
-       -16.39,
-       28.43
+       -17.17,
+       28.18
       ],
       [
-       -16.43,
-       28.49
+       -17.12,
+       28.15
+      ],
+      [
+       -17.1,
+       28.09
+      ],
+      [
+       -17.18,
+       28.03
+      ],
+      [
+       -17.24,
+       28.02
+      ],
+      [
+       -17.31,
+       28.05
+      ],
+      [
+       -17.35,
+       28.1
+      ],
+      [
+       -17.34,
+       28.15
       ]
      ]
     ]
