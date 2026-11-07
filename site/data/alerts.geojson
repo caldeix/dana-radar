@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "updated_at": "2026-11-07T13:55:38Z",
+ "updated_at": "2026-11-07T18:42:20Z",
  "source": "AEMET - Plan Meteoalerta",
  "features": [
   {
@@ -1267,7 +1267,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261107101822.701001PRP208231794046702#0",
+   "id": "2.49.0.0.724.0.ES.20261107181020.701001PRP208231794075020#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "PR",
@@ -1275,7 +1275,7 @@
     "zona": "Norte de Cáceres",
     "inicio": "2026-11-08T20:00:00Z",
     "fin": "2026-11-08T22:59:59Z",
-    "descripcion": "Precipitación acumulada en 12 horas: 80 mm. En 72 horas los acumulados pueden alcanzar los 200 mm. El aviso continúa al día siguiente.",
+    "descripcion": "Precipitación acumulada en 12 horas: 100 mm. En 72 horas los acumulados pueden alcanzar los 200 mm. El aviso continúa al día siguiente.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -1625,7 +1625,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261107101805.670503PRP208231794046685#0",
+   "id": "2.49.0.0.724.0.ES.20261107181054.670503PRP208231794075054#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "PR",
@@ -1633,7 +1633,7 @@
     "zona": "Sur de Ávila",
     "inicio": "2026-11-08T20:00:00Z",
     "fin": "2026-11-08T22:59:59Z",
-    "descripcion": "Precipitación acumulada en 12 horas: 80 mm. En 72 horas los acumulados pueden alcanzar los 200 mm. En el Sur de Ávila los acumulados se esperan en la parte más occidental. El aviso continúa al día siguiente.",
+    "descripcion": "Precipitación acumulada en 12 horas: 100 mm. En 72 horas los acumulados pueden alcanzar los 200 mm. Los acumulados se esperan en la parte más occidental. El aviso continúa al día siguiente.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -1881,15 +1881,15 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261107102622.701001PRP209231794047182#0",
+   "id": "2.49.0.0.724.0.ES.20261107180939.701001PRP209091794074979#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "PR",
     "fenomeno": "Lluvias",
     "zona": "Norte de Cáceres",
     "inicio": "2026-11-08T23:00:00Z",
-    "fin": "2026-11-09T22:59:59Z",
-    "descripcion": "Precipitación acumulada en 12 horas: 80 mm. En 72 horas los acumulados pueden alcanzar los 200 mm.",
+    "fin": "2026-11-09T08:59:59Z",
+    "descripcion": "Precipitación acumulada en 12 horas: 100 mm. En 72 horas los acumulados pueden alcanzar los 200 mm.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -2239,15 +2239,15 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261107102622.670503PRP209231794047182#0",
+   "id": "2.49.0.0.724.0.ES.20261107180939.670503PRP209091794074979#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "PR",
     "fenomeno": "Lluvias",
     "zona": "Sur de Ávila",
     "inicio": "2026-11-08T23:00:00Z",
-    "fin": "2026-11-09T22:59:59Z",
-    "descripcion": "Precipitación acumulada en 12 horas: 80 mm. En 72 horas los acumulados pueden alcanzar los 200 mm. En el Sur de Ávila los acumulados se esperan en la parte más occidental.",
+    "fin": "2026-11-09T08:59:59Z",
+    "descripcion": "Precipitación acumulada en 12 horas: 100 mm. En 72 horas los acumulados pueden alcanzar los 200 mm. En el Sur de Ávila los acumulados se esperan en la parte más occidental.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
