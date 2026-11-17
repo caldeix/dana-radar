@@ -1,18 +1,18 @@
 {
  "type": "FeatureCollection",
- "updated_at": "2026-11-17T08:15:41Z",
+ "updated_at": "2026-11-17T17:44:54Z",
  "source": "AEMET - Plan Meteoalerta",
  "features": [
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261117074421.711501COCO17231794901461#0",
+   "id": "2.49.0.0.724.0.ES.20261117082229.711501COCO18231794903749#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
     "fenomeno": "Costeros",
     "zona": "Costa - Noroeste de A Coruña",
     "inicio": "2026-11-17T18:00:00Z",
-    "fin": "2026-11-17T22:59:59Z",
+    "fin": "2026-11-18T22:59:59Z",
     "descripcion": "Mar combinada del Oeste o Noroeste de 5 a 6 m. Viento del Suroeste de 50 a 61 km/h (fuerza 7).",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
@@ -267,14 +267,14 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261117074421.712701COCO17231794901461#0",
+   "id": "2.49.0.0.724.0.ES.20261117082229.712701COCO18231794903749#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
     "fenomeno": "Costeros",
     "zona": "Costa - A Mariña",
     "inicio": "2026-11-17T21:00:00Z",
-    "fin": "2026-11-17T22:59:59Z",
+    "fin": "2026-11-18T22:59:59Z",
     "descripcion": "Mar combinada del Oeste o Noroeste de 5 a 6 m. Viento del Suroeste de 50 a 61 km/h (fuerza 7).",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
@@ -397,14 +397,14 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261117074421.711502COCO17231794901461#0",
+   "id": "2.49.0.0.724.0.ES.20261117082229.711502COCO18231794903749#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
     "fenomeno": "Costeros",
     "zona": "Costa - Oeste de A Coruña",
     "inicio": "2026-11-17T21:00:00Z",
-    "fin": "2026-11-17T22:59:59Z",
+    "fin": "2026-11-18T22:59:59Z",
     "descripcion": "Mar combinada del Oeste o Noroeste de 5 a 6 m. Viento del Suroeste de 50 a 61 km/h (fuerza 7).",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
@@ -563,571 +563,13 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.711501COCO18231794824933#0",
-   "properties": {
-    "nivel": "naranja",
-    "codigo": "CO",
-    "fenomeno": "Costeros",
-    "zona": "Costa - Noroeste de A Coruña",
-    "inicio": "2026-11-17T23:00:00Z",
-    "fin": "2026-11-18T22:59:59Z",
-    "descripcion": "Viento del oeste o suroeste de 50 a 61 km/h (fuerza 7). Mar combinada del noroeste de 5 a 6 m.",
-    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
-    "probabilidad": "40%-70%"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -9.42,
-       43.46
-      ],
-      [
-       -9.34,
-       43.48
-      ],
-      [
-       -9.31,
-       43.51
-      ],
-      [
-       -9.12,
-       43.63
-      ],
-      [
-       -9.04,
-       43.66
-      ],
-      [
-       -8.96,
-       43.69
-      ],
-      [
-       -8.87,
-       43.69
-      ],
-      [
-       -8.74,
-       43.69
-      ],
-      [
-       -8.71,
-       43.73
-      ],
-      [
-       -8.66,
-       43.79
-      ],
-      [
-       -8.59,
-       43.84
-      ],
-      [
-       -8.44,
-       43.89
-      ],
-      [
-       -8.36,
-       43.96
-      ],
-      [
-       -8.29,
-       43.99
-      ],
-      [
-       -8.13,
-       44.06
-      ],
-      [
-       -8.04,
-       44.09
-      ],
-      [
-       -7.95,
-       44.1
-      ],
-      [
-       -7.85,
-       44.1
-      ],
-      [
-       -7.79,
-       44.11
-      ],
-      [
-       -7.7,
-       44.12
-      ],
-      [
-       -7.6,
-       44.12
-      ],
-      [
-       -7.61,
-       43.83
-      ],
-      [
-       -7.65,
-       43.77
-      ],
-      [
-       -7.7,
-       43.74
-      ],
-      [
-       -7.73,
-       43.75
-      ],
-      [
-       -7.79,
-       43.73
-      ],
-      [
-       -7.84,
-       43.67
-      ],
-      [
-       -7.88,
-       43.66
-      ],
-      [
-       -7.86,
-       43.76
-      ],
-      [
-       -7.9,
-       43.77
-      ],
-      [
-       -7.92,
-       43.74
-      ],
-      [
-       -8.0,
-       43.7
-      ],
-      [
-       -8.06,
-       43.71
-      ],
-      [
-       -8.07,
-       43.66
-      ],
-      [
-       -8.15,
-       43.62
-      ],
-      [
-       -8.32,
-       43.53
-      ],
-      [
-       -8.33,
-       43.48
-      ],
-      [
-       -8.26,
-       43.42
-      ],
-      [
-       -8.21,
-       43.42
-      ],
-      [
-       -8.21,
-       43.33
-      ],
-      [
-       -8.3,
-       43.4
-      ],
-      [
-       -8.34,
-       43.4
-      ],
-      [
-       -8.35,
-       43.35
-      ],
-      [
-       -8.38,
-       43.34
-      ],
-      [
-       -8.44,
-       43.38
-      ],
-      [
-       -8.51,
-       43.33
-      ],
-      [
-       -8.56,
-       43.31
-      ],
-      [
-       -8.59,
-       43.32
-      ],
-      [
-       -8.71,
-       43.29
-      ],
-      [
-       -8.77,
-       43.3
-      ],
-      [
-       -8.8,
-       43.33
-      ],
-      [
-       -8.91,
-       43.32
-      ],
-      [
-       -8.91,
-       43.29
-      ],
-      [
-       -8.96,
-       43.27
-      ],
-      [
-       -8.94,
-       43.23
-      ],
-      [
-       -8.98,
-       43.23
-      ],
-      [
-       -9.03,
-       43.22
-      ],
-      [
-       -9.08,
-       43.18
-      ],
-      [
-       -9.35,
-       43.39
-      ],
-      [
-       -9.42,
-       43.46
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.711502COCO18231794824933#0",
-   "properties": {
-    "nivel": "naranja",
-    "codigo": "CO",
-    "fenomeno": "Costeros",
-    "zona": "Costa - Oeste de A Coruña",
-    "inicio": "2026-11-17T23:00:00Z",
-    "fin": "2026-11-18T22:59:59Z",
-    "descripcion": "Viento del oeste o suroeste de 50 a 61 km/h (fuerza 7). Mar combinada del noroeste de 5 a 6 m.",
-    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
-    "probabilidad": "40%-70%"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -9.42,
-       43.46
-      ],
-      [
-       -9.35,
-       43.39
-      ],
-      [
-       -9.08,
-       43.18
-      ],
-      [
-       -9.12,
-       43.2
-      ],
-      [
-       -9.2,
-       43.15
-      ],
-      [
-       -9.2,
-       43.13
-      ],
-      [
-       -9.16,
-       43.12
-      ],
-      [
-       -9.18,
-       43.09
-      ],
-      [
-       -9.22,
-       43.11
-      ],
-      [
-       -9.26,
-       43.05
-      ],
-      [
-       -9.29,
-       43.05
-      ],
-      [
-       -9.26,
-       42.97
-      ],
-      [
-       -9.29,
-       42.93
-      ],
-      [
-       -9.18,
-       42.92
-      ],
-      [
-       -9.13,
-       42.9
-      ],
-      [
-       -9.15,
-       42.87
-      ],
-      [
-       -9.11,
-       42.84
-      ],
-      [
-       -9.13,
-       42.79
-      ],
-      [
-       -9.12,
-       42.77
-      ],
-      [
-       -9.11,
-       42.76
-      ],
-      [
-       -9.54,
-       42.6
-      ],
-      [
-       -9.55,
-       42.62
-      ],
-      [
-       -9.61,
-       42.66
-      ],
-      [
-       -9.67,
-       42.72
-      ],
-      [
-       -9.7,
-       42.78
-      ],
-      [
-       -9.72,
-       42.84
-      ],
-      [
-       -9.72,
-       42.93
-      ],
-      [
-       -9.74,
-       43.01
-      ],
-      [
-       -9.75,
-       43.07
-      ],
-      [
-       -9.74,
-       43.13
-      ],
-      [
-       -9.71,
-       43.19
-      ],
-      [
-       -9.67,
-       43.24
-      ],
-      [
-       -9.64,
-       43.28
-      ],
-      [
-       -9.58,
-       43.36
-      ],
-      [
-       -9.52,
-       43.41
-      ],
-      [
-       -9.42,
-       43.46
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.712701COCO18231794824933#0",
-   "properties": {
-    "nivel": "naranja",
-    "codigo": "CO",
-    "fenomeno": "Costeros",
-    "zona": "Costa - A Mariña",
-    "inicio": "2026-11-18T05:00:00Z",
-    "fin": "2026-11-18T22:59:59Z",
-    "descripcion": "Viento del oeste o suroeste de 50 a 61 km/h (fuerza 7). Mar combinada del noroeste de 5 a 6 m.",
-    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
-    "probabilidad": "40%-70%"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -7.03,
-       43.55
-      ],
-      [
-       -7.06,
-       43.56
-      ],
-      [
-       -7.16,
-       43.55
-      ],
-      [
-       -7.22,
-       43.56
-      ],
-      [
-       -7.29,
-       43.6
-      ],
-      [
-       -7.33,
-       43.63
-      ],
-      [
-       -7.36,
-       43.67
-      ],
-      [
-       -7.47,
-       43.7
-      ],
-      [
-       -7.49,
-       43.73
-      ],
-      [
-       -7.54,
-       43.73
-      ],
-      [
-       -7.59,
-       43.68
-      ],
-      [
-       -7.63,
-       43.73
-      ],
-      [
-       -7.67,
-       43.75
-      ],
-      [
-       -7.7,
-       43.74
-      ],
-      [
-       -7.65,
-       43.77
-      ],
-      [
-       -7.61,
-       43.83
-      ],
-      [
-       -7.6,
-       44.12
-      ],
-      [
-       -7.52,
-       44.1
-      ],
-      [
-       -7.42,
-       44.06
-      ],
-      [
-       -7.36,
-       44.05
-      ],
-      [
-       -7.25,
-       44.02
-      ],
-      [
-       -7.17,
-       43.99
-      ],
-      [
-       -7.1,
-       43.95
-      ],
-      [
-       -7.05,
-       43.9
-      ],
-      [
-       -7.01,
-       43.88
-      ],
-      [
-       -7.03,
-       43.61
-      ],
-      [
-       -7.03,
-       43.55
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.713603COCO18231794824933#0",
+   "id": "2.49.0.0.724.0.ES.20261117082229.713603COCO18231794903749#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
     "fenomeno": "Costeros",
     "zona": "Costa - Miño de Pontevedra",
-    "inicio": "2026-11-18T08:00:00Z",
+    "inicio": "2026-11-18T03:00:00Z",
     "fin": "2026-11-18T22:59:59Z",
     "descripcion": "Mar combinada del noroeste de 5 a 6 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
@@ -1195,13 +637,13 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.713601COCO18231794824933#0",
+   "id": "2.49.0.0.724.0.ES.20261117082229.713601COCO18231794903749#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
     "fenomeno": "Costeros",
     "zona": "Costa - Rias Baixas",
-    "inicio": "2026-11-18T08:00:00Z",
+    "inicio": "2026-11-18T03:00:00Z",
     "fin": "2026-11-18T22:59:59Z",
     "descripcion": "Mar combinada del noroeste de 5 a 6 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
@@ -1389,13 +831,13 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.711504COCO18231794824933#0",
+   "id": "2.49.0.0.724.0.ES.20261117082229.711504COCO18231794903749#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
     "fenomeno": "Costeros",
     "zona": "Costa - Suroeste de A Coruña",
-    "inicio": "2026-11-18T08:00:00Z",
+    "inicio": "2026-11-18T03:00:00Z",
     "fin": "2026-11-18T22:59:59Z",
     "descripcion": "Mar combinada del noroeste de 5 a 6 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
@@ -1543,13 +985,313 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.663901COCO18231794824933#0",
+   "id": "2.49.0.0.724.0.ES.20261117082229.633301COCO18231794903749#0",
+   "properties": {
+    "nivel": "naranja",
+    "codigo": "CO",
+    "fenomeno": "Costeros",
+    "zona": "Costa - Litoral occidental asturiano",
+    "inicio": "2026-11-18T09:00:00Z",
+    "fin": "2026-11-18T22:59:59Z",
+    "descripcion": "Mar combinada del noroeste de 5 a 6 m.",
+    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
+    "probabilidad": "40%-70%"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -5.94,
+       43.59
+      ],
+      [
+       -5.96,
+       43.58
+      ],
+      [
+       -6.03,
+       43.59
+      ],
+      [
+       -6.06,
+       43.57
+      ],
+      [
+       -6.12,
+       43.56
+      ],
+      [
+       -6.19,
+       43.57
+      ],
+      [
+       -6.21,
+       43.59
+      ],
+      [
+       -6.35,
+       43.55
+      ],
+      [
+       -6.4,
+       43.56
+      ],
+      [
+       -6.54,
+       43.55
+      ],
+      [
+       -6.64,
+       43.57
+      ],
+      [
+       -6.68,
+       43.56
+      ],
+      [
+       -6.82,
+       43.56
+      ],
+      [
+       -6.91,
+       43.57
+      ],
+      [
+       -7.03,
+       43.54
+      ],
+      [
+       -7.03,
+       43.55
+      ],
+      [
+       -7.03,
+       43.61
+      ],
+      [
+       -7.01,
+       43.88
+      ],
+      [
+       -6.47,
+       43.88
+      ],
+      [
+       -6.39,
+       43.91
+      ],
+      [
+       -6.31,
+       43.93
+      ],
+      [
+       -6.23,
+       43.93
+      ],
+      [
+       -6.15,
+       43.92
+      ],
+      [
+       -6.08,
+       43.96
+      ],
+      [
+       -5.97,
+       43.99
+      ],
+      [
+       -5.95,
+       43.6
+      ],
+      [
+       -5.94,
+       43.59
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "2.49.0.0.724.0.ES.20261117082229.633302COCO18231794903749#0",
+   "properties": {
+    "nivel": "naranja",
+    "codigo": "CO",
+    "fenomeno": "Costeros",
+    "zona": "Costa - Litoral oriental asturiano",
+    "inicio": "2026-11-18T09:00:00Z",
+    "fin": "2026-11-18T22:59:59Z",
+    "descripcion": "Mar combinada del noroeste de 5 a 6 m.",
+    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
+    "probabilidad": "40%-70%"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -4.52,
+       43.73
+      ],
+      [
+       -4.51,
+       43.51
+      ],
+      [
+       -4.51,
+       43.39
+      ],
+      [
+       -4.58,
+       43.39
+      ],
+      [
+       -4.74,
+       43.42
+      ],
+      [
+       -4.94,
+       43.46
+      ],
+      [
+       -5.04,
+       43.46
+      ],
+      [
+       -5.12,
+       43.49
+      ],
+      [
+       -5.21,
+       43.47
+      ],
+      [
+       -5.29,
+       43.54
+      ],
+      [
+       -5.38,
+       43.54
+      ],
+      [
+       -5.41,
+       43.56
+      ],
+      [
+       -5.68,
+       43.54
+      ],
+      [
+       -5.71,
+       43.57
+      ],
+      [
+       -5.76,
+       43.59
+      ],
+      [
+       -5.78,
+       43.61
+      ],
+      [
+       -5.82,
+       43.64
+      ],
+      [
+       -5.9,
+       43.63
+      ],
+      [
+       -5.9,
+       43.62
+      ],
+      [
+       -5.94,
+       43.59
+      ],
+      [
+       -5.95,
+       43.6
+      ],
+      [
+       -5.97,
+       43.99
+      ],
+      [
+       -5.9,
+       44.0
+      ],
+      [
+       -5.8,
+       44.0
+      ],
+      [
+       -5.71,
+       43.98
+      ],
+      [
+       -5.63,
+       43.96
+      ],
+      [
+       -5.56,
+       43.93
+      ],
+      [
+       -5.5,
+       43.89
+      ],
+      [
+       -5.35,
+       43.89
+      ],
+      [
+       -5.26,
+       43.87
+      ],
+      [
+       -5.18,
+       43.84
+      ],
+      [
+       -5.05,
+       43.79
+      ],
+      [
+       -4.87,
+       43.77
+      ],
+      [
+       -4.82,
+       43.77
+      ],
+      [
+       -4.67,
+       43.76
+      ],
+      [
+       -4.56,
+       43.73
+      ],
+      [
+       -4.52,
+       43.73
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "2.49.0.0.724.0.ES.20261117094846.663901COCO18231794908926#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
     "fenomeno": "Costeros",
     "zona": "Costa - Litoral cántabro",
-    "inicio": "2026-11-18T14:00:00Z",
+    "inicio": "2026-11-18T12:00:00Z",
     "fin": "2026-11-18T22:59:59Z",
     "descripcion": "Mar combinada del Noroeste de 5 a 6 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
@@ -1729,307 +1471,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.633301COCO18231794824933#0",
-   "properties": {
-    "nivel": "naranja",
-    "codigo": "CO",
-    "fenomeno": "Costeros",
-    "zona": "Costa - Litoral occidental asturiano",
-    "inicio": "2026-11-18T14:00:00Z",
-    "fin": "2026-11-18T22:59:59Z",
-    "descripcion": "Mar combinada del noroeste de 5 a 6 m.",
-    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
-    "probabilidad": "40%-70%"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -5.94,
-       43.59
-      ],
-      [
-       -5.96,
-       43.58
-      ],
-      [
-       -6.03,
-       43.59
-      ],
-      [
-       -6.06,
-       43.57
-      ],
-      [
-       -6.12,
-       43.56
-      ],
-      [
-       -6.19,
-       43.57
-      ],
-      [
-       -6.21,
-       43.59
-      ],
-      [
-       -6.35,
-       43.55
-      ],
-      [
-       -6.4,
-       43.56
-      ],
-      [
-       -6.54,
-       43.55
-      ],
-      [
-       -6.64,
-       43.57
-      ],
-      [
-       -6.68,
-       43.56
-      ],
-      [
-       -6.82,
-       43.56
-      ],
-      [
-       -6.91,
-       43.57
-      ],
-      [
-       -7.03,
-       43.54
-      ],
-      [
-       -7.03,
-       43.55
-      ],
-      [
-       -7.03,
-       43.61
-      ],
-      [
-       -7.01,
-       43.88
-      ],
-      [
-       -6.47,
-       43.88
-      ],
-      [
-       -6.39,
-       43.91
-      ],
-      [
-       -6.31,
-       43.93
-      ],
-      [
-       -6.23,
-       43.93
-      ],
-      [
-       -6.15,
-       43.92
-      ],
-      [
-       -6.08,
-       43.96
-      ],
-      [
-       -5.97,
-       43.99
-      ],
-      [
-       -5.95,
-       43.6
-      ],
-      [
-       -5.94,
-       43.59
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.633302COCO18231794824933#0",
-   "properties": {
-    "nivel": "naranja",
-    "codigo": "CO",
-    "fenomeno": "Costeros",
-    "zona": "Costa - Litoral oriental asturiano",
-    "inicio": "2026-11-18T14:00:00Z",
-    "fin": "2026-11-18T22:59:59Z",
-    "descripcion": "Mar combinada del noroeste de 5 a 6 m.",
-    "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
-    "probabilidad": "40%-70%"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       -4.52,
-       43.73
-      ],
-      [
-       -4.51,
-       43.51
-      ],
-      [
-       -4.51,
-       43.39
-      ],
-      [
-       -4.58,
-       43.39
-      ],
-      [
-       -4.74,
-       43.42
-      ],
-      [
-       -4.94,
-       43.46
-      ],
-      [
-       -5.04,
-       43.46
-      ],
-      [
-       -5.12,
-       43.49
-      ],
-      [
-       -5.21,
-       43.47
-      ],
-      [
-       -5.29,
-       43.54
-      ],
-      [
-       -5.38,
-       43.54
-      ],
-      [
-       -5.41,
-       43.56
-      ],
-      [
-       -5.68,
-       43.54
-      ],
-      [
-       -5.71,
-       43.57
-      ],
-      [
-       -5.76,
-       43.59
-      ],
-      [
-       -5.78,
-       43.61
-      ],
-      [
-       -5.82,
-       43.64
-      ],
-      [
-       -5.9,
-       43.63
-      ],
-      [
-       -5.9,
-       43.62
-      ],
-      [
-       -5.94,
-       43.59
-      ],
-      [
-       -5.95,
-       43.6
-      ],
-      [
-       -5.97,
-       43.99
-      ],
-      [
-       -5.9,
-       44.0
-      ],
-      [
-       -5.8,
-       44.0
-      ],
-      [
-       -5.71,
-       43.98
-      ],
-      [
-       -5.63,
-       43.96
-      ],
-      [
-       -5.56,
-       43.93
-      ],
-      [
-       -5.5,
-       43.89
-      ],
-      [
-       -5.35,
-       43.89
-      ],
-      [
-       -5.26,
-       43.87
-      ],
-      [
-       -5.18,
-       43.84
-      ],
-      [
-       -5.05,
-       43.79
-      ],
-      [
-       -4.87,
-       43.77
-      ],
-      [
-       -4.82,
-       43.77
-      ],
-      [
-       -4.67,
-       43.76
-      ],
-      [
-       -4.56,
-       43.73
-      ],
-      [
-       -4.52,
-       43.73
-      ]
-     ]
-    ]
-   }
-  },
-  {
-   "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.754801COCO18231794824933#0",
+   "id": "2.49.0.0.724.0.ES.20261117094846.754801COCO18231794908926#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -2167,7 +1609,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116102853.752001COCO18231794824933#0",
+   "id": "2.49.0.0.724.0.ES.20261117094846.752001COCO18231794908926#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -2281,7 +1723,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.712701COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.712701COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -2289,7 +1731,7 @@
     "zona": "Costa - A Mariña",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento del SW de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento del Suroeste de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -2411,7 +1853,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.754801COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.754801COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -2419,7 +1861,7 @@
     "zona": "Costa - Bizkaia litoral",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento de Componente Oeste de 50 a 61 km/h (fuerza 7). Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento de Componente Oeste de 50 a 61 km/h (fuerza 7), temporalmente de 62 a 74 km/h (fuerza 8) durante la madrugada. Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -2549,7 +1991,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.752001COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.752001COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -2557,7 +1999,7 @@
     "zona": "Costa - Gipuzkoa litoral",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento de Componente Oeste de 50 a 61 km/h (fuerza 7). Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento de Componente Oeste de 50 a 61 km/h (fuerza 7), temporalmente de 62 a 74 km/h (fuerza 8) durante la madrugada. Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -2663,7 +2105,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.663901COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.663901COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -2671,7 +2113,7 @@
     "zona": "Costa - Litoral cántabro",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento de Componente Oeste de 50 a 61 km/h (fuerza 7). Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento de Componente Oeste de 50 a 61 km/h (fuerza 7), temporalmente de 62 a 74 km/h (fuerza 8) durante la madrugada. Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -2849,7 +2291,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.633301COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.633301COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -2857,7 +2299,7 @@
     "zona": "Costa - Litoral occidental asturiano",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento del Oeste o Suroeste de 50 a 61 km/h (fuerza 7). Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento del Oeste o Suroeste de 50 a 61 km/h (fuerza 7), temporalmente de 62 a 74 km/h (fuerza 8). Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -2979,7 +2421,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.633302COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.633302COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -2987,7 +2429,7 @@
     "zona": "Costa - Litoral oriental asturiano",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento del Oeste o Suroeste de 50 a 61 km/h (fuerza 7). Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento del Oeste o Suroeste de 50 a 61 km/h (fuerza 7), temporalmente de 62 a 74 km/h (fuerza 8). Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -3149,7 +2591,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.713603COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.713603COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -3157,7 +2599,7 @@
     "zona": "Costa - Miño de Pontevedra",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento del SW de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento del Suroeste de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -3223,7 +2665,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.711501COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.711501COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -3231,7 +2673,7 @@
     "zona": "Costa - Noroeste de A Coruña",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento del SW de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento del Suroeste de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -3485,7 +2927,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.711502COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.711502COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -3493,7 +2935,7 @@
     "zona": "Costa - Oeste de A Coruña",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento del SW de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento del Suroeste de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -3651,7 +3093,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.713601COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.713601COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -3659,7 +3101,7 @@
     "zona": "Costa - Rias Baixas",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento del SW de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento del Suroeste de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -3845,7 +3287,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261116225001.711504COCO19231794869401#0",
+   "id": "2.49.0.0.724.0.ES.20261117102800.711504COCO19231794911280#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -3853,7 +3295,7 @@
     "zona": "Costa - Suroeste de A Coruña",
     "inicio": "2026-11-18T23:00:00Z",
     "fin": "2026-11-19T22:59:59Z",
-    "descripcion": "Viento del SW de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 6 m.",
+    "descripcion": "Viento del Suroeste de 50 a 61 km/h (fuerza 7) en A Coruña y Lugo. Mar combinada del Noroeste de 5 a 7 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
