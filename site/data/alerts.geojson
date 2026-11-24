@@ -1,11 +1,11 @@
 {
  "type": "FeatureCollection",
- "updated_at": "2026-11-24T10:12:31Z",
+ "updated_at": "2026-11-24T20:45:04Z",
  "source": "AEMET - Plan Meteoalerta",
  "features": [
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261123175941.663901COCO25211795456781#0",
+   "id": "2.49.0.0.724.0.ES.20261124102506.663901COCO25211795515906#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -13,7 +13,7 @@
     "zona": "Costa - Litoral cántabro",
     "inicio": "2026-11-25T02:00:00Z",
     "fin": "2026-11-25T20:59:59Z",
-    "descripcion": "Viento del oeste de 62 a 74 km/h (fuerza 8). Mar combinada del noroeste en torno a los 5 m.",
+    "descripcion": "Viento del oeste de 62 a 74 km/h (fuerza 8), rolando a noroeste. Mar combinada del noroeste de 5 a 6 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -191,7 +191,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261123175941.754801COCO25211795456781#0",
+   "id": "2.49.0.0.724.0.ES.20261124102506.754801COCO25211795515906#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -199,7 +199,7 @@
     "zona": "Costa - Bizkaia litoral",
     "inicio": "2026-11-25T08:00:00Z",
     "fin": "2026-11-25T20:59:59Z",
-    "descripcion": "Viento del oeste de 62 a 74 km/h (fuerza 8). Mar combinada del noroeste en torno a los 5 m.",
+    "descripcion": "Viento del oeste de 62 a 74 km/h (fuerza 8), rolando a noroeste. Mar combinada del noroeste de 5 a 6 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
@@ -329,7 +329,7 @@
   },
   {
    "type": "Feature",
-   "id": "2.49.0.0.724.0.ES.20261123175941.752001COCO25211795456781#0",
+   "id": "2.49.0.0.724.0.ES.20261124102506.752001COCO25211795515906#0",
    "properties": {
     "nivel": "naranja",
     "codigo": "CO",
@@ -337,7 +337,7 @@
     "zona": "Costa - Gipuzkoa litoral",
     "inicio": "2026-11-25T08:00:00Z",
     "fin": "2026-11-25T20:59:59Z",
-    "descripcion": "Viento del oeste de 62 a 74 km/h (fuerza 8). Mar combinada del noroeste en torno a los 5 m.",
+    "descripcion": "Viento del oeste de 62 a 74 km/h (fuerza 8), rolando a noroeste. Mar combinada del noroeste de 5 a 6 m.",
     "instrucciones": "Esté preparado. Tome precauciones y manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños graves a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.",
     "probabilidad": "40%-70%"
    },
